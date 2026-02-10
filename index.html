@@ -565,13 +565,81 @@
             color: #ff6b9d;
         }
 
-        /* Responsive */
+        /* Responsive - Tablets */
         @media (max-width: 768px) {
             .typewriter { font-size: 2rem; }
             .question { font-size: 2.5rem; }
             .big-heart { font-size: 80px; }
             .celebration-title { font-size: 3rem; }
             .polaroid img { width: 150px; height: 150px; }
+            .polaroid { padding: 10px 10px 40px; }
+            .love-quote p { font-size: 1.2rem; }
+        }
+
+        /* Responsive - Phones */
+        @media (max-width: 480px) {
+            .typewriter {
+                font-size: 1.6rem;
+                white-space: normal;
+                border-right: none;
+                animation: fadeIn 1s ease-out;
+            }
+            .subtitle { font-size: 1rem; margin: 15px 10px 30px; }
+            .question { font-size: 2rem; margin: 20px 0; }
+            .big-heart { font-size: 60px; }
+            .celebration-title { font-size: 2.2rem; }
+            .love-message { font-size: 1.1rem; padding: 0 15px; }
+
+            .btn {
+                padding: 15px 35px;
+                font-size: 1.1rem;
+            }
+            .buttons { gap: 15px; }
+
+            .envelope {
+                width: 220px;
+                height: 140px;
+            }
+            .envelope::before {
+                border-width: 70px 110px 0 110px;
+            }
+            .heart-seal { font-size: 40px; }
+            .intro-text { font-size: 0.85rem; letter-spacing: 2px; }
+
+            .polaroid-gallery { gap: 20px; }
+            .polaroid {
+                padding: 8px 8px 35px;
+            }
+            .polaroid img {
+                width: 120px;
+                height: 120px;
+            }
+            .polaroid-caption { font-size: 1rem; bottom: 8px; }
+            .gallery-title { font-size: 2rem; }
+
+            .reasons-section { padding: 0 15px; }
+            .reasons-title { font-size: 2rem; }
+            .reason {
+                padding: 15px 20px;
+                font-size: 1rem;
+            }
+
+            .love-quote {
+                margin: 30px 15px;
+                padding: 20px;
+            }
+            .love-quote p { font-size: 1.1rem; }
+            .love-quote span { font-size: 1.1rem; }
+
+            .final-message {
+                margin: 30px 15px;
+                padding: 25px 20px;
+            }
+            .final-message h3 { font-size: 2rem; }
+            .final-message p { font-size: 1rem; }
+            .signature { font-size: 1.5rem; }
+
+            .celebration-screen { padding: 40px 10px; }
         }
     </style>
 </head>
